@@ -52,11 +52,12 @@ body{
     overflow: hidden;
 }
 
-.logo{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 5%;
+.cta:hover{
+    background-color: azure;
+    transform: scale(1.05) translateY(2px);
 }
 
-
+.cta:active{
+    background-color: azure;
+    transform: scale(0.95) translateY(2px);
+}
